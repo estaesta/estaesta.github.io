@@ -11,7 +11,7 @@
       <nav>
         <ul>
           <a href="#"><li>About Me</li></a>
-          <a href="#myprojects"><li>My Projects</li></a>
+          <a href="#myprojects-anchor"><li>My Projects</li></a>
         </ul>
       </nav>
     </header>
@@ -21,10 +21,9 @@
           <img src="./assets/img/IMG_0569.jpg" alt="" />
           <h1>Hi, I'm Ahmad Foresta</h1>
           <p>
-            Just a computer science student with a passion for technology. I
-            have an interest in infrastructure, particularly in areas of
-            computer networking, cloud computing, and security. I’m also
-            enthusiastic about machine learning.
+            Just a computer science fresh graduate with a passion for
+            technology. I have an interest in DevOps, Infrastructure, and
+            Backend Development. I’m also enthusiastic about machine learning.
           </p>
           <p>
             <a href="https://github.com/estaesta" target="_blank">My Github</a>
@@ -32,15 +31,20 @@
             <a href="https://linkedin.com/in/ahmad-foresta" target="_blank"
               >My Linkedin
             </a>
+            |
+            <a href="https://ddpaud.pages.dev" target="_blank"
+              >My Personal Blog</a
+            >
           </p>
         </div>
       </div>
+      <a class="anchor" id="myprojects-anchor">myprojects</a>
       <div class="row">
         <h2 id="myprojects">My Projects</h2>
       </div>
       <div class="row">
         <div id="arrow">
-          <a href="#myprojects">
+          <a href="#myprojects-anchor">
             <!-- make arrow down svg -->
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -60,6 +64,47 @@
       </div>
       <div class="row project">
         <div class="proj-desc">
+          <h3>Heartbeat Classification</h3>
+          <p>
+            My college research about implementing heartbeat classification
+            using LSTM based model. Built using tensorflow and flask.
+          </p>
+        </div>
+        <div class="card">
+          <img src="./assets/img/lstm2.png" alt="" />
+        </div>
+      </div>
+      <div class="row project">
+        <div class="card">
+          <img src="./assets/img/ppg-stress-ss.png" alt="" />
+        </div>
+        <div class="proj-desc">
+          <h3>Stress Detection using PPG sensor</h3>
+          <p>
+            Research about implementing realtime stress detection using PPG
+            sensor and LSTM based model. Built using tensorflow and flask.
+          </p>
+        </div>
+      </div>
+      <!-- <div class="row project"> -->
+      <!--   <div class="card"> -->
+      <!--     <a href="https://ddpaud.pages.dev" target="_blank"> -->
+      <!--       <img src="./assets/img/ddpaudblog.png" alt="" /> -->
+      <!--     </a> -->
+      <!--   </div> -->
+      <!--   <div class="proj-desc"> -->
+      <!--     <h3>Personal Blog</h3> -->
+      <!--     <p> -->
+      <!--       My personal blog. Built using Zola static site generator. Can be -->
+      <!--       accessed on -->
+      <!--       <a href="https://ddpaud.pages.dev" target="_blank" -->
+      <!--         >https://ddpaud.pages.dev</a -->
+      <!--       > -->
+      <!--     </p> -->
+      <!--   </div> -->
+      <!-- </div> -->
+      <div class="row project">
+        <div class="proj-desc">
           <h3>Naztama Bumi Raya unofficial company website</h3>
           <p>
             Learning html with tailwindcss and alpinejs. Deployed website can be
@@ -69,39 +114,10 @@
             >
           </p>
         </div>
-        <div class="card ">
+        <div class="card">
           <a href="https://naztamabumiraya.pages.dev" target="_blank">
             <img src="./assets/img/naztama.png" alt="" />
           </a>
-        </div>
-      </div>
-      <div class="row project">
-        <div class="card ">
-          <a href="https://ddpaud.pages.dev" target="_blank">
-            <img src="./assets/img/ddpaudblog.png" alt="" />
-          </a>
-        </div>
-        <div class="proj-desc">
-          <h3>Personal Blog</h3>
-          <p>
-            My personal blog. Built using Zola static site generator. Can be
-            accessed on
-            <a href="https://ddpaud.pages.dev" target="_blank"
-              >https://ddpaud.pages.dev</a
-            >
-          </p>
-        </div>
-      </div>
-      <div class="row project">
-        <div class="proj-desc">
-          <h3>Heartbeat prediction</h3>
-          <p>
-            My college research about implementing heartbeat prediction using
-            LSTM based model. Built using tensorflow and flask.
-          </p>
-        </div>
-        <div class="card ">
-          <img src="./assets/img/lstm2.png" alt="" />
         </div>
       </div>
     </main>
