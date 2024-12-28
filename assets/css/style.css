@@ -111,11 +111,37 @@ h3 {
   text-align: center;
 }
 
+h2 {
+  margin: 0;
+  font-size: 3rem;
+}
+
 #aboutme p {
   text-align: center;
   max-width: 70%;
   font-size: 1.2rem;
   margin: 0;
+}
+
+.skills {
+  display: grid;
+  grid: repeat(2, 1fr) / auto-flow dense;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.skills img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+.skills :hover {
+  scale: 1.2;
+  transition: all 0.1s ease-in-out;
 }
 
 a.anchor {
